@@ -391,8 +391,6 @@ p {
     background-color: #B0966E;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
-
 }
 .typo_stats {
     font-size: 40px;
@@ -432,7 +430,7 @@ p {
 .container_body {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 50px;
 }
 .container_text{
@@ -441,4 +439,19 @@ p {
     align-items: center;
     width: 30%;
     text-align: center;
+}  
+.title_partenaire {
+    text-align: center;
+}
+.container_avis {
+    display: flex;
+    justify-content: space-evenly;
+}
+.avis {
+    border-radius: 5px;
+    background-color: #B0966E;
+    width: 373px;
+    height: 261px;
+    border-radius: 5px;
+    margin-left: 25;
 }
