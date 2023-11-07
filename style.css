@@ -346,17 +346,66 @@
 
 
 
-
-
-
-
 html, body {
     margin :0;
     padding:0;
 }
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
 .container_stats {
+    background-color: #B0966E;
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+
+}
+.typo_stats {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.typo_stats_text {
+    margin: 0;
+    font-size: 20px;
+}
+.stat{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.partenaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.body_img {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border-radius: 20px;
+}
+.container_body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
