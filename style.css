@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'monserrat-bold';
-    src: url('/fonts/Montserrat-Bold.ttf');
+    src: url('./fonts/Montserrat-Bold.ttf');
 }
 
 @font-face {
     font-family: 'monserrat';
-    src: url('/fonts/Montserrat-Regular.ttf');
+    src: url('./fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
     font-family: 'dolce-garcia';
-    src: url('/fonts/Dolce_Gargia.otf');
+    src: url('./fonts/Dolce_Gargia.otf');
 }
 
 @font-face {
     font-family: 'gold-lines-Trial';
-    src: url('/fonts/Gold_Lines_Trial.otf');
+    src: url('./fonts/Gold_Lines_Trial.otf');
 }
 
 @font-face {
     font-family: 'gold-lines-serif-trial';
-    src: url('/fonts/Gold_Lines_Serif_Trial.otf');
+    src: url('./fonts/Gold_Lines_Serif_Trial.otf');
 }
 
 * {
