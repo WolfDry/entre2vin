@@ -2,30 +2,34 @@
     font-family: 'monserrat-bold';
     src: url('/fonts/Montserrat-Bold.ttf');
 }
+
 @font-face {
     font-family: 'monserrat';
     src: url('/fonts/Montserrat-Regular.ttf');
 }
+
 @font-face {
     font-family: 'dolce-garcia';
     src: url('/fonts/Dolce\ Gargia.otf');
 }
+
 @font-face {
     font-family: 'gold-lines-Trial';
     src: url('/fonts/Gold\ Lines\ Trial.otf');
 }
+
 @font-face {
     font-family: 'gold-lines-serif-trial';
     src: url('/fonts/Gold\ Lines\ Serif\ Trial.otf');
 }
 
-*{
+* {
     font-family: 'monserrat';
     font-weight: 400;
     /* border: 1px solid red */
 }
 
-a{
+a {
     margin: 35px;
     color: black;
     text-decoration: none;
@@ -33,16 +37,18 @@ a{
     font-weight: 500;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-family: 'gold-lines-trial';
     color: #B6174B;
 }
 
-h2{
+h2 {
     font-size: 48px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,17 +57,17 @@ h2{
     gap: 70px;
 }
 
-.logo{
+.logo {
     width: 313.25px;
     height: 141.88px;
 }
 
-.active{
+.active {
     color: #B0966E;
     border-bottom: 1px solid #B0966E;
 }
 
-.button{
+.button {
     display: flex;
     width: 185px;
     height: 10px;
@@ -73,28 +79,40 @@ h2{
 
 }
 
-.primary{
+.primary {
     background-color: #B0966E;
     color: white;
 }
 
-.secondary{
+.secondary {
     background-color: white;
     color: #B0966E;
 }
 
-.nav_connexion{
+.nav_connexion {
     display: flex;
     align-items: center;
 }
 
-.fa-user{
+.fa-user {
     font-size: 35px;
     color: #B0966E;
 }
 
-.presentation_container{
+.header svg {
     position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    fill: white;
+    z-index: 9999;
+}
+
+.presentation_container {
+    position: absolute;
+    top: 20%;
+    left: 5%;
     margin: 15px;
     padding: 1px 0 0 20px;
     width: 550px;
@@ -102,379 +120,390 @@ h2{
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.presentation_text{
+.presentation_text {
     width: 65%;
     font-size: 20px;
 }
 
-.carré-arrondi {
+.presentation_arrow {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 250px;
-    background-color: white;
-    border-top-left-radius: 250%;
-    border-top-right-radius: 250%;
-  }
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html, body {
-    margin :0;
-    padding:0;
+    bottom: 24%;
+    left: 50%;
+    font-size: 56px;
+    transform: translate(-50%, 50%);
+    z-index: 999999999;
+    width: 42px;
+    height: 56px;
 }
+
+.fa-solid.fa-arrow-down {
+    background-color: white;
+    color: #B0966E;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
 }
+
 .container_stats {
     background-color: #B0966E;
     display: flex;
     justify-content: space-around;
 }
+
 .typo_stats {
     font-size: 40px;
     margin: 0;
@@ -482,11 +511,13 @@ p {
     text-align: center;
     width: 100%;
 }
+
 .typo_stats_text {
     margin: 0;
     font-size: 20px;
 }
-.stat{
+
+.stat {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -494,6 +525,7 @@ p {
     justify-content: center;
     align-items: center;
 }
+
 .partenaire {
     display: flex;
     justify-content: center;
@@ -509,6 +541,7 @@ p {
     width: 400px;
     border-radius: 20px;
 }
+
 .container_body {
     display: flex;
     /* width: 80% */
@@ -517,35 +550,41 @@ p {
     /* margin-bottom: 100px;
     margin-top: 50px; */
 }
+
 .container-text-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 40%;
 }
-.button-body{
+
+.button-body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
     padding-right: 35px;
-    background-color:#B6174B;
-    border-radius:5px;
+    background-color: #B6174B;
+    border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
-.container_text{
+
+.container_text {
     width: 70%;
     text-align: center;
-}  
+}
+
 .title_partenaire {
     text-align: center;
 }
+
 .container_avis {
     margin-inline: 140px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
 }
+
 .avis {
     display: flex;
     margin-left: 10px;
@@ -560,6 +599,7 @@ p {
 .text-avis {
     text-align: center;
 }
+
 .button-swipe {
     position: absolute;
     padding: 20px;
@@ -567,6 +607,7 @@ p {
     border-radius: 50%;
     left: 85px;
 }
+
 .button-swipe-right {
     position: absolute;
     padding: 20px;
@@ -579,14 +620,16 @@ p {
     /* height: 295px; */
     display: flex;
     align-items: flex-start;
-    justify-content: space-around; 
-    padding-right: 100px; 
+    justify-content: space-around;
+    padding-right: 100px;
     padding-bottom: 60px;
     background-color: #B0966E80;
 }
+
 .footer p {
     color: black;
 }
+
 .coords {
     margin-top: 20px;
 }
