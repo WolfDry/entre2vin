@@ -6,10 +6,23 @@
     font-family: 'monserrat';
     src: url('/fonts/Montserrat-Regular.ttf');
 }
+@font-face {
+    font-family: 'dolce-garcia';
+    src: url('/fonts/Dolce\ Gargia.otf');
+}
+@font-face {
+    font-family: 'gold-lines-Trial';
+    src: url('/fonts/Gold\ Lines\ Trial.otf');
+}
+@font-face {
+    font-family: 'gold-lines-serif-trial';
+    src: url('/fonts/Gold\ Lines\ Serif\ Trial.otf');
+}
 
 *{
     font-family: 'monserrat';
     font-weight: 400;
+    border: 1px solid red
 }
 
 a{
@@ -20,20 +33,27 @@ a{
     font-weight: 500;
 }
 
+h1,h2,h3{
+    font-family: 'gold-lines-trial';
+    color: #B6174B;
+}
+
+h2{
+    font-size: 48px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    width: 100%;
+    padding: 30px 10px;
     height: 80px;
     gap: 70px;
 }
 
 .logo{
-    width: 217px;
-    height: 80px;
-    background-color: grey;
+    width: 313.25px;
+    height: 141.88px;
 }
 
 .active{
@@ -43,13 +63,12 @@ a{
 
 .button{
     display: flex;
-    height: 39px;
-    padding: 16px 37px;
+    width: 185px;
+    height: 10px;
+    padding: 12px 30px;
     justify-content: center;
     align-items: center;
-    gap: 10px; 
     border-radius: 5px;
-    background: #B0966E;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
@@ -59,12 +78,31 @@ a{
     color: white;
 }
 
+.secondary{
+    background-color: white;
+    color: #B0966E;
+}
+
+.nav_connexion{
+    display: flex;
+    align-items: center;
+}
+
 .fa-user{
     font-size: 35px;
     color: #B0966E;
 }
 
+.header{
+    background-image: url("./images/background.png");
+    background-size: cover;
+}
 
+.presentation_text{
+    width: 550px;
+    height: 388px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
 
 
 
