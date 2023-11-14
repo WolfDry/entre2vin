@@ -471,6 +471,8 @@ p {
     color: #FFFFFF;
 }
 .container_stats {
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: #B0966E;
     display: flex;
     justify-content: space-around;
@@ -590,10 +592,22 @@ p {
 .coords {
     margin-top: 20px;
 }
-
-
-
-/* h1,h2,h3{
-    font-family: 'gold-lines-trial';
-    color: #B6174B;
-} */
+.illu_1 {
+    position: absolute;
+    opacity: 0.1;
+    width: 500px;
+    right: 0px;
+    /* right: -35px; */
+}
+.illu_2 {
+    position: absolute;
+    opacity: 0.1;
+    width: 600px;
+    left: -35px;
+}
+.illu_3 {
+    position: absolute;
+    opacity: 0.1;
+    width: 500px;
+    right: 0px;
+}
