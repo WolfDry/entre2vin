@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: 'dolce-garcia';
-    src: url('/fonts/Dolce\ Gargia.otf');
+    src: url('/fonts/Dolce_Gargia.otf');
 }
 
 @font-face {
     font-family: 'gold-lines-Trial';
-    src: url('/fonts/Gold\ Lines\ Trial.otf');
+    src: url('/fonts/Gold_Lines_Trial.otf');
 }
 
 @font-face {
     font-family: 'gold-lines-serif-trial';
-    src: url('/fonts/Gold\ Lines\ Serif\ Trial.otf');
+    src: url('/fonts/Gold_Lines_Serif_Trial.otf');
 }
 
 * {
