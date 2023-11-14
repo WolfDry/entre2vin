@@ -132,15 +132,18 @@ h2 {
     font-size: 56px;
     transform: translate(-50%, 50%);
     z-index: 999999999;
-    width: 42px;
+    width: 56px;
     height: 56px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
 }
 
 .fa-solid.fa-arrow-down {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #B0966E;
-    position: absolute;
-    text-align: center;
 }
 
 
@@ -635,6 +638,7 @@ p {
 .coords {
     margin-top: 20px;
 }
+
 .illu_1 {
     position: absolute;
     opacity: 0.1;
@@ -642,12 +646,14 @@ p {
     right: 0px;
     /* right: -35px; */
 }
+
 .illu_2 {
     position: absolute;
     opacity: 0.1;
     width: 600px;
     left: -35px;
 }
+
 .illu_3 {
     position: absolute;
     opacity: 0.1;
