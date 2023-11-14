@@ -579,7 +579,7 @@ p {
     /* height: 295px; */
     display: flex;
     align-items: flex-start;
-    justify-content: space-between; 
+    justify-content: space-around; 
     padding-right: 100px; 
     padding-bottom: 60px;
     background-color: #B0966E80;
